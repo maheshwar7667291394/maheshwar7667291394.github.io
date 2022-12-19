@@ -611,7 +611,11 @@ form.btn2{
     }
 
    
-
+    .calendar.grid img{
+        height: 100%;
+        width: 100%;
+        
+    }
     
 
 
@@ -655,3 +659,4 @@ form.btn2{
 .toolsgit{
     font-size: xx-large;
 }
+

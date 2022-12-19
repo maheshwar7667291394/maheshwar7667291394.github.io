@@ -7,6 +7,7 @@
     <title>Maheshwar Sahni  Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1ba88d182f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 </head>
 <body>
     <div id="header">
@@ -153,8 +154,7 @@
  
                   <i class="fa-brands fa-app-store"></i>
                     <h2>Frontend Developer</h2>
-                    <p>ability to implement front-end technology and create more than 4 projects.
-                        By using CSS, HTML, and JavaScript are used. </p>
+                    <p>ability to implement front-end technology and create more than four projects. by using CSS, HTML, and JavaScript.</p>
                         <a href="#"> Lern More</a>
                 </div>
 
@@ -465,21 +465,26 @@ Maven
         </div>
    </div>
 
-<!-- git status seting -->
-<div id="gitstatus">
-   <h1 class="toolsgit">GitHub Status</h1>
-    <div>
-        <div><img src="gitstatusimage/current status.png" alt=""></div>
-        <div><img src="gitstatusimage/Screenshot (164).png" alt=""></div>
-      
-   
-   </div>
-   
-   
-</div>
- <div id="gitclender">
-    <img src="gitstatusimage/Screenshot (165).png" alt="">
- </div>
+<!-- git status seting  --> 
+ 
+    <div class="container">
+        <h1 class="sub-title">My Contributions</h1>
+        <div class="calendar">
+            Loading stuff
+           Loading the data just for you.
+        </div>
+        <div class="calendar grid" style="margin-top: 12px; padding-top: 20px;">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=maheshwar7667291394&theme=#5687C7" alt=""
+                class="stat">
+            <img src="https://github-readme-stats.vercel.app/api?username=maheshwar7667291394&show_icons=true&locale=en&theme=#5687C7"
+                alt="" class="stat">
+        </div>
+         
+    </div> 
+
+
+
+
 
    <!-- contect-------------------------- -->
    <div id="contact">
@@ -571,14 +576,15 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycby4Gqjlr8s42k5iwUDpfW
 
 </script>
 
-
-
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
 <script>
+    
+    GitHubCalendar(".calendar", "maheshwar7667291394", { responsive: true });
 
   
-</script>
 
+</script>
 
 
 
